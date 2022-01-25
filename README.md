@@ -1,25 +1,46 @@
-# Alchemy React Base Template
+### Acceptance Criteria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Use the data file, background image, and animal images in this repo to complete this assignment.
+- `<App />` component 
+    --// should import the animals array and 
+    --// pass it to `<Main />`. 
+    --// pass an email to the `footer` 
+    --// pass greeting to the `header`
+    
+- `<Header />` 
+    --// should render its greeting prop
+    
+- `<Footer />` 
+    --// should render its contact email prop.
 
-Use this template for all your "from scratch" deliverables. To start, simply run
+- `<Main />` 
+    --// should import `background.png` and set it as a background image on the `<main>` element. 
+    --// pass `animals` down the the `<AnimalList />` component
 
-- `npm install`
-- `npm start`
+- `<AnimalList />` component 
+    --// should use a `.map` to loop through 
+    --// and render an `<Animal />` component for each animal in the animals array passed to it from the parent.
 
-## Available Scripts
+- Animals should be positioned dynamically using the `style` attribute in JSX and props
 
-In the project directory, you can run:
+- App should be deployed on Netlify
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Components                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+--// All components have no errors (especially `imports`, `className` or `key` errors) in the console  |  2 |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+--// `App()` : renders `Header`, `Footer`, and `Main` |2|
+--// `App()` : passes props correctly to `Header` and `Footer` |2|
+--// `App()` : imports animal data array and passes is as props `Main` |2|
 
-### `npm test`
+--// `Main({ animals })` : This component contains the background image on a div and passes the `animals` array down to the `AnimalList` component |3|
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--// `Header({ greeting } )` : Renders a header with a `greeting` prop nicely rendered |1|
+
+--// `Footer({ email })` : Renders a footer with a `email` prop nicely rendered |1|
+
+--// `Animal({ name, type, says })` : renders the animal name, saying, and image using the `name` `type` and `says` props |2|
+
+--// `AnimalList({ animals })` : maps over the animal array in props without errors.  |2|
+--// `AnimalList({ animals })` : renders an `Animal` for each item in the array, suppling a `name`, `type`, `says` and unique `key` prop to each `Animal`.  |3|
