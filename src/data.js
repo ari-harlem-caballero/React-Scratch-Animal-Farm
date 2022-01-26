@@ -1,26 +1,32 @@
 export const animal = [
   {
     name: 'Betsy',
-    type: 'cow'
+    type: 'cow',
+    says: 1
   },
   {
     name: 'Isabelle',
-    type: 'donkey'
+    type: 'donkey',
+    says: 2
   },
   {
     name: 'Bruce',
-    type: 'goose'
+    type: 'goose',
+    says: 3
   },
   {
     name: 'Frank',
-    type: 'pig'
+    type: 'pig',
+    says: 4
   },
   {
     name: 'Shawn',
-    type: 'sheep'
+    type: 'sheep',
+    says: 5
   },
   {
     name: 'Layla',
-    type: 'spider'
+    type: 'spider',
+    says: 6
   },
 ];
