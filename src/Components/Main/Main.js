@@ -1,7 +1,7 @@
 import React from 'react';
 import backgroundImage from './background.png';
 import './Main.css';
-import AnimalList from '../Components/AnimalList/AnimalList';
+import AnimalList from '../AnimalList/AnimalList';
 
 export default function Main(props) {
   return (

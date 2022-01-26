@@ -1,5 +1,5 @@
 import React from 'react';
-import Animal from './Animal/Animal';
+import Animal from '../Animal/Animal';
 
 export default function AnimalList(props) {
   return (
