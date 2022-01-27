@@ -1,15 +1,15 @@
 import './App.css';
-import Header from './Header/Header';
-import Main from './Main/Main';
-import Footer from './Footer/Footer';
+import { animal } from './data';
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-      <h1>Hello</h1>
+      <Header greeting='Ari' />
+      <Main animals= {animal} />
+      <Footer email='mine@mine.eu' />
     </div>
   );
 }
