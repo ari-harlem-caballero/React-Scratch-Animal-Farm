@@ -26,7 +26,7 @@ export const animal = [
   },
   {
     name: 'Layla',
-    type: 'spider',
+    type: 'goat',
     says: 6
   },
 ];
