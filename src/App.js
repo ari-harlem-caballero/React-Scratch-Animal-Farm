@@ -7,9 +7,9 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Header greeting='Hello' />
+      <Header greeting='Ari' />
       <Main animals= {animal} />
-      <Footer email='mine@mine' />
+      <Footer email='mine@mine.eu' />
     </div>
   );
 }
