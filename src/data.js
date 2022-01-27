@@ -2,31 +2,31 @@ export const animal = [
   {
     name: 'Betsy',
     type: 'cow',
-    says: 1
+    says: `"You miss 100% of the shots you don't take. -- Wayne Gretzky" -- Michael Scott`
   },
   {
     name: 'Isabelle',
     type: 'donkey',
-    says: 2
+    says: 'These pains you feel are messengers. Listen to them.'
   },
   {
     name: 'Bruce',
     type: 'goose',
-    says: 3
+    says: `'Tis better to have loved and lost than never have loved at all`
   },
   {
     name: 'Frank',
     type: 'pig',
-    says: 4
+    says: 'I wanna be a rock in my next life'
   },
   {
     name: 'Shawn',
     type: 'sheep',
-    says: 5
+    says: `Life is what happens when you're busy making other plans`
   },
   {
     name: 'Layla',
     type: 'goat',
-    says: 6
+    says: `Ain't ever gunna stop loving you, b*tch`
   },
 ];

@@ -10,7 +10,6 @@ function App() {
       <Header greeting='Hello' />
       <Main animals= {animal} />
       <Footer email='mine@mine' />
-      <h1>Hello</h1>
     </div>
   );
 }

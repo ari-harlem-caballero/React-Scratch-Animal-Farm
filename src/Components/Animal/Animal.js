@@ -6,7 +6,7 @@ export default function Animal({ name, type, says }) {
     <img alt={`${type}`} src={ `./${type}.png` } width={100} />
 
     <p>{name}</p>
-    <p>{says}</p>
+    <p>Says: {says}</p>
 
   </div>;
 }
